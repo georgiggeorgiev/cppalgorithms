@@ -24,7 +24,7 @@ int binary_search(int arr[], int size, int search)
 
 int main()
 {
-    int arr[] = {69,333,420,690,444};
+    int arr[] = {69,333,420,444,690}; //array must be sorted
 
     cout << binary_search(arr,5,420) << endl;
 
